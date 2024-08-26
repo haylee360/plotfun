@@ -2,9 +2,10 @@
 # Tip: use back ticks to remove naming restrictions (e.g., to include spaces for `light grey` and `dark grey`).
 aoba_colors <- c(
   `white` = "#ffffff",
-  `bright aqua` = "#21f7ef",
+  `bright aqua` = "#00fffb",
   `aqua` = "#a5f9f1",
   `aqua2` = "#79c6c6",
+  `aqua3` = "#277a79",
   `light brown` = "#612c21",
   `brown` = "#49212a",
   `grey` = "#343434",
@@ -37,7 +38,9 @@ aoba_palettes <- list(
 
   `bright` = aoba_color("white", "bright aqua", "black"),
 
-  `grey`  = aoba_color("white", "grey", "black")
+  `grey`  = aoba_color("white", "grey", "black,"),
+
+  `aqua` = aoba_color("bright aqua", "aqua", "aqua2", "aqua3")
 )
 
 
